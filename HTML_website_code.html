@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stefan Novakovic - Personal Journey Through Science, Medicine, and Growth.">
+  <meta name="keywords" content="Stefan Novakovic, Medicine, Research, Science, Personal Development, Blog">
+  <meta name="author" content="Stefan Novakovic">
+
+  <meta property="og:title" content="My Journey - Stefan Novakovic">
+  <meta property="og:description" content="A personal journey through science, medicine, and growth.">
+  <meta property="og:image" content="images/your-photo.jpg">
+  <meta property="og:url" content="https://stefannovakovic.github.io">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="My Journey - Stefan Novakovic">
+  <meta name="twitter:description" content="A personal journey through science, medicine, and growth.">
+  <meta name="twitter:image" content="images/your-photo.jpg">
+
+  <title>My Journey - Stefan Novakovic</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/png">
+
+  <!-- FontAwesome for flags -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Journey</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#cv">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Language Selector -->
+  <div class="language-selector">
+    <input type="text" id="languageSearch" placeholder="Search Language...">
+    <select onchange="translateLanguage(this.value)">
+      <option value="">Select Language</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="de">🇩🇪 German</option>
+      <option value="fr">🇫🇷 French</option>
+      <option value="es">🇪🇸 Spanish</option>
+      <option value="zh-CN">🇨🇳 Chinese</option>
+    </select>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h2>Hi, I'm Stefan Novakovic</h2>
+    <p>Aspiring medical professional passionate about science, innovation, and human advancement.</p>
+    <a href="#about" class="btn-hero">Learn more</a>
+  </div>
+</section>
+
+<section id="about" class="fade-in">
+  <h2>About Me</h2>
+  <p>I am Stefan Novakovic, a passionate science student and aspiring medical professional. Here I share my journey, my experiences, and my deep enthusiasm for science and learning.</p>
+</section>
+
+<section id="blog" class="fade-in">
+  <h2>Blog</h2>
+  <p>My thoughts and insights about research, motivation, science, and personal growth.</p>
+</section>
+
+<section id="videos" class="fade-in">
+  <h2>Featured Videos</h2>
+  <div id="videoGallery"></div>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="https://www.youtube.com/results?search_query=biomedical+engineering" target="_blank" class="btn-download">
+      Watch More Videos
+    </a>
+  </div>
+</section>
+
+<section id="cv" class="fade-in">
+  <h2>Resume</h2>
+  <p>You can download my current resume here:</p>
+  <a href="documents/Stefan_Novakovic_CV.pdf" download class="btn-download">Download Resume</a>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2>Contact</h2>
+  <p>Feel free to reach out via email or through the form below.</p>
+
+  <form action="mailto:stefan.v.novakovic@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email Address" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Stefan Novakovic. All rights reserved.
+</footer>
+
+<!-- Your custom JavaScript -->
+<script src="main.js"></script>
+
+</body>
+</html>
